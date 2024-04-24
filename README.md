@@ -2,3 +2,4 @@
 
 jogo simples da web em javascript
 projeto de estudos da alura
+![javascripy](https://img.shields.io/badge/java%20script-8A2BE2)
