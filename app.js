@@ -29,7 +29,7 @@ function verificarChute() {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O numero secreto È menor');
         } else {
-            exibirTextoNaTela('p', 'O numero secreto È maior');
+            exibirTextoNaTela('p', 'O n√∫mero secreto √© maior');
         }
         tentativas++;
         limparCampo();
@@ -39,7 +39,7 @@ function verificarChute() {
 function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
     let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
-
+    
     if (quantidadeDeElementosNaLista == numeroLimite) {
         listaDeNumerosSorteados = [];
     }
